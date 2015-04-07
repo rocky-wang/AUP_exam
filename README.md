@@ -10,3 +10,11 @@ linux应用编程参考代码：
 		2.3：参考Buffer_IO/copyFileBuffer.c 块格式拷贝	
 	3、日志文件生成问题
 		参考Buffer_IO/timeLog.c
+二、文件IO部分
+	1、文件IO文件拷贝问题
+		参考File_IO/copyFile.c	文件IO的拷贝
+	2、目录遍历问题
+		参考File_IO/listDirFile.c	遍历目录里的文件信息
+	3、ls -l的自实现编程问题
+		参考File_IO/listInfo.c		ls -l的简化版
+
