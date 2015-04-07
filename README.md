@@ -27,4 +27,9 @@ linux应用编程参考代码：
 		参考 signal_IPC/signal_sync.c
 	2、司机售票员模拟问题
 		参考 signal_IPC/simulate_bus.c
+五、SYSV_IPC通信
+	1、通过共享内存完成数据交互，信号完成同步
+		参考 sysv_IPC/signal_shm_reader.c  signal_shm_writer.c
+	2、通过共享内存完成数据交互，信号量完成同步
+		参考 sysv_IPC/signal_sem_reader.c  signal_sem_writer.c
 
