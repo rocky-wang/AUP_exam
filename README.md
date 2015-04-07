@@ -17,4 +17,14 @@ linux应用编程参考代码：
 		参考File_IO/listDirFile.c	遍历目录里的文件信息
 	3、ls -l的自实现编程问题
 		参考File_IO/listInfo.c		ls -l的简化版
+三、管道IPC通信
+	1、无名管道信息交互问题
+		参考 pipe_IPC/pipe_test.c
+	2、有名管道信息交互问题
+		参考 pipe_IPC/fifo_reader.c		pipe_IPC/fifo_writer.c
+四、信号IPC通信
+	1、信号实现亲缘关系进程的同步问题
+		参考 signal_IPC/signal_sync.c
+	2、司机售票员模拟问题
+		参考 signal_IPC/simulate_bus.c
 
