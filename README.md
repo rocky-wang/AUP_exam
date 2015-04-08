@@ -32,4 +32,9 @@ linux应用编程参考代码：
 		参考 sysv_IPC/signal_shm_reader.c  signal_shm_writer.c
 	2、通过共享内存完成数据交互，信号量完成同步
 		参考 sysv_IPC/shmSem_reader.c shmSem_writer.c
+六、TCP网络编程练习题
+	1、简单的TCP服务器、客户端程序
+		参考 tcp_base/tcp_server.c  tcp_client.c
+	2、简单的文件上传下载TCP客户服务器模型
+		参考 tcp_base/file_server.c file_client.c
 
