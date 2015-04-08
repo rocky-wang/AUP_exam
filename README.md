@@ -31,5 +31,5 @@ linux应用编程参考代码：
 	1、通过共享内存完成数据交互，信号完成同步
 		参考 sysv_IPC/signal_shm_reader.c  signal_shm_writer.c
 	2、通过共享内存完成数据交互，信号量完成同步
-		参考 sysv_IPC/signal_sem_reader.c  signal_sem_writer.c
+		参考 sysv_IPC/shmSem_reader.c shmSem_writer.c
 
